@@ -125,6 +125,7 @@ input[type="submit"] {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
     
 
 }
@@ -146,9 +147,46 @@ input[type="submit"] {
     
 }
 
+.banner2 {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+    
+}
+
+.banner2 h1 {
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+.banner2 .banner-promo {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.banner2 .banner-promo .item {
+    width: 20%;
+    color: black;
+    text-align: center;
+}
+
+.banner2 .banner-promo .item img {
+    width: 100%;
+    padding: 20px;
+    background-size: cover;
+}
+
+.banner2 p {
+    padding: 3px;
+}
+
+
+
 footer {
     width: 100%;
-    background-color: var(--cor--one);
+    background-color: var(--cor--five);
     
 }
 
@@ -157,7 +195,7 @@ footer p {
     font: 24px;
     text-align: center;
     padding: 10px;
-    color: var(--cor--five);
+    color: var(--cor--two);
 }
 
 .sobre {
