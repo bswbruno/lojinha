@@ -110,8 +110,7 @@ input[type="submit"] {
 
 .banner {
     width: 100%;
-    
-    background-color: var(--cor--tree);
+        background-color: var(--cor--tree);
     box-shadow: 0px 0px 10px 4px #ffffff7c;
 }
 
@@ -204,4 +203,21 @@ footer p {
     background-image: linear-gradient(to top, #02031a , #021b2b 60%);
 }
 
+.sobre h1 {
+    color: var(--cor--five);
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+.sobre-paragrafo {
+    max-width: 1200px;
+    margin: 80px auto;
+    color: var(--cor--five);
+    
+}
+
+.sobre-paragrafo p {
+    padding: 20px;
+}
 
