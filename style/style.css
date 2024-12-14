@@ -323,3 +323,8 @@ footer p {
     padding: 10px;
     color: var(--cor--two);
 }
+
+.contato {
+    width: 100%;
+    background-image: linear-gradient(to top, #02031a , #021b2b 60%); 
+}
