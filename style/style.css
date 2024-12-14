@@ -289,6 +289,27 @@ input[type="submit"] {
     height: auto;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+
 footer {
     width: 100%;
     background-color: var(--cor--five);
