@@ -211,6 +211,12 @@ input[type="submit"] {
     padding: 20px;
 }
 
+.banner-promo-produt {
+    width: 100%;
+    background-color: grey;
+    height: 200px;
+}
+
 
 .produtos {
     width: 100%;
