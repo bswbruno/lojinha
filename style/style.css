@@ -213,14 +213,25 @@ input[type="submit"] {
 
 .banner-promo-produt {
     width: 100%;
-    background-color: grey;
     height: 200px;
+    
 }
 
+.banner-promo-produt img {
+    max-width: 1400px;
+    width: 80%;
+    background-position: center center;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 1px 10px 1px rgba(255, 255, 255, 0.432);
+}
 
 .produtos {
     width: 100%;
     background-image: linear-gradient(to top, #02031a , #021b2b 60%);
+    
 }
 
 .produtos h1 {
@@ -231,13 +242,15 @@ input[type="submit"] {
 }
 
 .produto-container {
+    margin-top: 20%;
     display: flex; 
     flex-wrap: wrap; 
     gap: 30px; 
     justify-content: center;
-    width: 100%; 
-    padding: 60px 20px; 
+    width: auto; 
+    
     box-sizing: border-box;
+    
 }
 
 .produto {
@@ -285,7 +298,7 @@ input[type="submit"] {
 }
 
 .descricao-cel p {
-    background-color: #ccc; 
+    background-color: #cccccc6b; 
     color: #333; 
     padding: 10px;
     border-radius: 5px;
