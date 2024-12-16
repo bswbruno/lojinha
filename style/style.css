@@ -259,6 +259,125 @@ input[type="submit"] {
     transition: width 0.5s ease-in-out; /* Suaviza a transição */
 }
 
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 150px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 100vh;
+    
+
+}
+
+.contato-left, .contato-right {
+     flex: 1;
+}
+
+.info-contatos, .info-contatos2 {
+    padding: 20px;
+    text-align: center;
+    color: var(--cor--five);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.info-contatos2 {
+    
+    padding: 50px;
+}
+
+.info-contatos h1, .info-contatos h3 {
+    margin-top: 20px;
+}
+
+.rede__social {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.rede__social img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.txt-info label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.txt-info p {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.txt-info input, .txt-info {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.txt-info {
+    margin-top: -50px;
+}
+
+#text-livre {
+    height: 200px;
+}
+
+.txt-info input:focus, .txt-info input[type="email"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    
+}
+
+#btn-enviar {
+    background-color: var(--cor--for);
+    color: white;
+    width: 200px;
+    margin: 30px ;
+    border-radius: 10px;
+}
+
+#btn-enviar:hover {
+    background-color: var(--cor--tree);
+    transform: scale(1.07);
+    border: none;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
 
 
 
