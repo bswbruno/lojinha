@@ -615,6 +615,7 @@ footer p {
 
     .descricao-cel {
         width: 100%;
+        max-width: none;
         box-sizing: border-box;
     }
     
@@ -626,15 +627,17 @@ footer p {
     }
     
     .descricao-cel p {
-        background-color: #cccccc6b; 
+        background-color: transparent; 
+        padding-top: 25px;
         color: #333; 
-        
         border-radius: 5px;
         font-size: 14px;
         line-height: 1.5;
         text-align: center;
         height: auto;
     }
+
+ 
     
   
 
